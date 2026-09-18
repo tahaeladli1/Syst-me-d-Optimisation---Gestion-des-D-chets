@@ -1,84 +1,126 @@
-# 🗑️ Système d'Optimisation — Gestion des Déchets
-### EMSI — 3ème Année Ingénierie Informatique et Réseaux — 2025/2026
+# Système d'Optimisation — Gestion des Déchets
 
-**Équipe :** Yahya Zaizi · Taki Mohamed Imrane ·  · Youssef Et-talhaouy · Taha Aideli
+Projet académique EMSI pour la gestion intelligente des déchets, avec optimisation linéaire, méthodes simplex, simulation IoT et planification de collecte.
 
----
+## Équipe
 
-## 📦 Installation rapide
+Yahya Zaizi · Taki Mohamed Imrane · Youssef Et-talhaouy · Taha Aideli
+
+## Objectif
+
+Ce projet vise à optimiser la collecte, la planification et la gestion des déchets en combinant :
+
+- modélisation mathématique
+- optimisation linéaire
+- méthode du simplexe
+- simulation de niveaux de remplissage des bennes
+- analyse IoT et visualisation
+- interface de suivi utilisateur
+
+## Installation
 
 ```bash
-# 1. Cloner / décompresser le projet
-cd waste_management
+# Cloner le projet
+cd -Syst-me-d-Optimisation-Gestion-des-D-chets-main
 
-# 2. Créer l'environnement virtuel
-python -m venv venv
-source venv/bin/activate      # Linux/Mac
-venv\Scripts\activate         # Windows
+# Créer un environnement virtuel
+python -m venv .venv
 
-# 3. Installer les dépendances
+# Windows
+.venv\Scripts\activate
+
+# macOS/Linux
+source .venv/bin/activate
+
+# Installer les dépendances
 pip install -r requirements.txt
+```
 
-# 4. Vérifier l'installation (Étape 1)
+## Vérification rapide
+
+```bash
 python setup_check.py
-
-# 5. Lancer la démo CLI
 python main.py --mode cli
 ```
 
----
+## Structure du projet
 
-## 🗂️ Structure du Projet
-
-```
-waste_management/
-├── main.py                   ← Point d'entrée principal
-├── setup_check.py            ← Vérification Étape 1
-├── requirements.txt
+```text
+.
 ├── README.md
+├── requirements.txt
+├── main.py
+├── setup_check.py
 ├── config/
-│   └── settings.py           ← Paramètres globaux
-├── modules/                  ← Algorithmes (Étapes 2, 3, 4)
-│   ├── linear_prog.py
-│   ├── simplex.py
+│   └── settings.py
+├── data/
+│   ├── iot_report.json
+│   └── sample_data.json
+├── modules/
+│   ├── iot_analytics.py
 │   ├── iot_sensors.py
-│   └── route_optimizer.py
-├── ui/                       ← Interfaces (Étape 5)
+│   ├── iot_visualisation.py
+│   ├── linear_prog.py
+│   ├── route_optimizer.py
+│   ├── route_visualisation.py
+│   ├── simplex.py
+│   └── visualisation.py
+├── ui/
 │   ├── dashboard.py
 │   └── web_app.py
-├── data/
-│   └── sample_data.json      ← Données de simulation
-├── assets/                   ← Images & icônes
-├── exports/                  ← Rapports générés
-└── tests/
-    └── test_etape1.py
+├── tests/
+│   ├── test_etape1.py
+│   ├── test_etape2.py
+│   ├── test_etape3.py
+│   ├── test_etape4.py
+│   └── test_etape5.py
+├── exports/
+│   └── rapports et captures générées
+├── etape2_demo.py
+├── etape3_demo.py
+├── etape4_demo.py
+├── etape5_demo.py
+└── .gitignore
 ```
 
----
+## Fonctionnalités principales
 
-## 🚀 Étapes du Projet
+- optimisation de la collecte de déchets par méthode graphique et simplex
+- modélisation des contraintes de carburant, temps et budget
+- simulation de capteurs IoT et alertes de niveau
+- optimisation des tournées de collecte
+- visualisation des résultats et export de rapports
+- interface utilisateur pour dashboard et démonstration
 
-| Étape | Titre | Statut |
-|-------|-------|--------|
-| **1** | Configuration & Structure | ✅ Complète |
-| **2** | Algorithmes d'Optimisation (LP + Simplexe) | 🔜 |
-| **3** | Intégration IoT (ROHITH-M10) | 🔜 |
-| **4** | Optimisation des Routes (jtsimoes) | 🔜 |
-| **5** | Interface GUI & Dashboard Web | 🔜 |
+## Modèle mathématique
 
----
+### Chapitre 1
 
-## 🔑 Modèle Mathématique
+Maximiser :
 
-**Chapitre 1** — Max Z = 8x₁ + 6x₂ (2 variables, méthode graphique)
-→ Solution : x₁=11, x₂=1, **Z = 94 t/jour**
+Z = 8x₁ + 6x₂
 
-**Chapitre 2** — Max Z = 8x₁ + 7x₂ + 11x₃ (3 variables, simplexe)
-→ Solution : x₁=2, x₂=5, x₃=5, **Z = 106 t/jour ★**
+avec solution optimale : x₁ = 11, x₂ = 1, Z = 94 tonnes/jour.
 
----
+### Chapitre 2
 
-## 🔗 Projets de Référence
+Maximiser :
 
-- **IoT Monitoring** : https://github.com/ROHITH-M10/IOT-Smart-Waste-Management-System
-- **Route Optimizer** : https://github.com/jtsimoes/smart-city-waste-management
+Z = 8x₁ + 7x₂ + 11x₃
+
+avec solution optimale : x₁ = 2, x₂ = 5, x₃ = 5, Z = 106 tonnes/jour.
+
+## Tests
+
+```bash
+python -m pytest -q
+```
+
+## Licence
+
+Ce projet est distribué sous licence MIT. Voir le fichier LICENSE pour plus de détails.
+
+## Références
+
+- projet d’optimisation IoT inspiré de solutions de gestion intelligente des déchets
+- méthodes d’optimisation linéaire et simplex appliquées à la logistique urbaine
