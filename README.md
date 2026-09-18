@@ -19,7 +19,7 @@ Ce projet a été conçu pour optimiser le traitement et la collecte des déchet
 
 ## Équipe
 
-Yahya Zaizi · Taki Mohamed Imrane · Youssef Et-talhaouy · Taha Aideli
+Mohamed Taha El Adli · Yahya Zaizi · Taki Mohamed Imrane · Youssef Et-talhaouy 
 
 ## Objectifs
 
