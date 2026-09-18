@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "name": "Optimisation Gestion des Déchets",
+    "school": "EMSI",
+    "year": "2025-2026"
+  },
+  "chapter1": {
+    "description": "Méthode Graphique — 2 variables, 6 contraintes",
+    "objective": "Max Z = 8x1 + 6x2",
+    "constraints": {
+      "C1": {"expr": "4x1 + 3x2 <= 48", "desc": "Carburant", "limit": 48},
+      "C2": {"expr": "2x1 + 4x2 <= 40", "desc": "Capacité flotte", "limit": 40},
+      "C3": {"expr": "6x1 + 4x2 <= 72", "desc": "Budget", "limit": 72},
+      "C4": {"expr": "x1 >= 2",          "desc": "Min camions ménagers", "limit": 2},
+      "C5": {"expr": "x2 >= 1",          "desc": "Min camions recyclables", "limit": 1},
+      "C6": {"expr": "8x1+6x2 >= 50",   "desc": "Min collecte", "limit": 50}
+    },
+    "optimal_solution": {"x1": 11, "x2": 1, "Z": 94}
+  },
+  "chapter2": {
+    "description": "Méthode du Simplexe — 3 variables, 3 contraintes",
+    "objective": "Max Z = 8x1 + 7x2 + 11x3",
+    "constraints": {
+      "C1": {"expr": "4x1+3x2+5x3 <= 48",  "desc": "Carburant", "limit": 48},
+      "C2": {"expr": "2x1+4x2+3x3 <= 40",  "desc": "Temps opérationnel", "limit": 40},
+      "C3": {"expr": "6x1+4x2+8x3 <= 72",  "desc": "Budget", "limit": 72}
+    },
+    "continuous_solution": {"x1": 0, "x2": 5.2, "x3": 6.4, "Z": 106.8},
+    "integer_solution":    {"x1": 2, "x2": 5,   "x3": 5,   "Z": 106}
+  },
+  "simulation_bins": [
+    {"bin_id": "BIN_001", "fill_level": 85, "location": [31.635, -7.989], "type": "menager"},
+    {"bin_id": "BIN_002", "fill_level": 42, "location": [31.628, -7.975], "type": "recyclable"},
+    {"bin_id": "BIN_003", "fill_level": 91, "location": [31.622, -7.982], "type": "biomedical"},
+    {"bin_id": "BIN_004", "fill_level": 67, "location": [31.631, -7.993], "type": "menager"},
+    {"bin_id": "BIN_005", "fill_level": 23, "location": [31.618, -7.970], "type": "recyclable"},
+    {"bin_id": "BIN_006", "fill_level": 78, "location": [31.640, -7.980], "type": "menager"},
+    {"bin_id": "BIN_007", "fill_level": 55, "location": [31.625, -7.965], "type": "biomedical"},
+    {"bin_id": "BIN_008", "fill_level": 95, "location": [31.633, -7.988], "type": "recyclable"}
+  ]
+}

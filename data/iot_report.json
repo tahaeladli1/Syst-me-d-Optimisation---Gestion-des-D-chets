@@ -1,0 +1,430 @@
+{
+  "generated_at": "2026-05-02T11:08:16.474058",
+  "city": "Marrakech",
+  "statistics": {
+    "n_bins": 38,
+    "n_online": 38,
+    "fill_avg": 63.4,
+    "fill_max": 97.4,
+    "fill_min": 10.4,
+    "total_weight_kg": 15519.1,
+    "by_type": {
+      "menager": 88.3,
+      "recyclable": 54.0,
+      "biomedical": 49.7
+    },
+    "by_zone": {
+      "Medina": 62.0,
+      "Gueliz": 49.9,
+      "Hivernage": 60.3,
+      "Majorelle": 62.5,
+      "M'Hamid": 71.5,
+      "Palmeraie": 84.5
+    },
+    "by_status": {
+      "CRITICAL": 9,
+      "URGENT": 8,
+      "WARNING": 10,
+      "NORMAL": 11
+    },
+    "hotspot_zone": "Palmeraie",
+    "urgent_count": 17,
+    "timestamp": "2026-05-02T11:08:16.473315"
+  },
+  "urgent_bins": [
+    {
+      "bin_id": "BIN_037_PAL",
+      "fill_level": 97.5,
+      "waste_type": "menager",
+      "zone": "Palmeraie",
+      "location": [
+        31.653842,
+        -7.956824
+      ],
+      "capacity_kg": 1000,
+      "weight_kg": 974.7,
+      "battery_pct": 89.6,
+      "temperature": 25.0,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "CRITICAL"
+    },
+    {
+      "bin_id": "BIN_039_PAL",
+      "fill_level": 96.9,
+      "waste_type": "biomedical",
+      "zone": "Palmeraie",
+      "location": [
+        31.660366,
+        -7.968849
+      ],
+      "capacity_kg": 300,
+      "weight_kg": 290.8,
+      "battery_pct": 64.6,
+      "temperature": 28.2,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "CRITICAL"
+    },
+    {
+      "bin_id": "BIN_033_M'H",
+      "fill_level": 96.2,
+      "waste_type": "biomedical",
+      "zone": "M'Hamid",
+      "location": [
+        31.59265,
+        -8.022065
+      ],
+      "capacity_kg": 750,
+      "weight_kg": 721.8,
+      "battery_pct": 89.4,
+      "temperature": 33.3,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "CRITICAL"
+    },
+    {
+      "bin_id": "BIN_030_M'H",
+      "fill_level": 95.1,
+      "waste_type": "biomedical",
+      "zone": "M'Hamid",
+      "location": [
+        31.594235,
+        -8.00752
+      ],
+      "capacity_kg": 300,
+      "weight_kg": 285.3,
+      "battery_pct": 75.7,
+      "temperature": 28.9,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "CRITICAL"
+    },
+    {
+      "bin_id": "BIN_024_HIV",
+      "fill_level": 95.0,
+      "waste_type": "biomedical",
+      "zone": "Hivernage",
+      "location": [
+        31.627564,
+        -7.986379
+      ],
+      "capacity_kg": 750,
+      "weight_kg": 712.7,
+      "battery_pct": 86.1,
+      "temperature": 22.5,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "CRITICAL"
+    },
+    {
+      "bin_id": "BIN_009_MED",
+      "fill_level": 94.6,
+      "waste_type": "biomedical",
+      "zone": "Medina",
+      "location": [
+        31.626184,
+        -7.984299
+      ],
+      "capacity_kg": 500,
+      "weight_kg": 472.9,
+      "battery_pct": 88.4,
+      "temperature": 26.7,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "CRITICAL"
+    },
+    {
+      "bin_id": "BIN_013_GUE",
+      "fill_level": 92.2,
+      "waste_type": "menager",
+      "zone": "Gueliz",
+      "location": [
+        31.629695,
+        -7.999547
+      ],
+      "capacity_kg": 1000,
+      "weight_kg": 921.8,
+      "battery_pct": 76.3,
+      "temperature": 36.7,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "CRITICAL"
+    },
+    {
+      "bin_id": "BIN_016_GUE",
+      "fill_level": 91.8,
+      "waste_type": "menager",
+      "zone": "Gueliz",
+      "location": [
+        31.631569,
+        -8.000901
+      ],
+      "capacity_kg": 300,
+      "weight_kg": 275.5,
+      "battery_pct": 90.7,
+      "temperature": 32.6,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "CRITICAL"
+    },
+    {
+      "bin_id": "BIN_025_MAJ",
+      "fill_level": 90.5,
+      "waste_type": "menager",
+      "zone": "Majorelle",
+      "location": [
+        31.633865,
+        -7.988022
+      ],
+      "capacity_kg": 1000,
+      "weight_kg": 905.1,
+      "battery_pct": 94.8,
+      "temperature": 19.1,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "CRITICAL"
+    },
+    {
+      "bin_id": "BIN_028_MAJ",
+      "fill_level": 89.4,
+      "waste_type": "menager",
+      "zone": "Majorelle",
+      "location": [
+        31.644005,
+        -7.995479
+      ],
+      "capacity_kg": 1000,
+      "weight_kg": 893.5,
+      "battery_pct": 66.1,
+      "temperature": 22.5,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "URGENT"
+    },
+    {
+      "bin_id": "BIN_040_PAL",
+      "fill_level": 89.0,
+      "waste_type": "menager",
+      "zone": "Palmeraie",
+      "location": [
+        31.664614,
+        -7.958381
+      ],
+      "capacity_kg": 300,
+      "weight_kg": 267.0,
+      "battery_pct": 88.3,
+      "temperature": 18.1,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "URGENT"
+    },
+    {
+      "bin_id": "BIN_004_MED",
+      "fill_level": 87.7,
+      "waste_type": "menager",
+      "zone": "Medina",
+      "location": [
+        31.628956,
+        -7.986694
+      ],
+      "capacity_kg": 500,
+      "weight_kg": 438.4,
+      "battery_pct": 76.2,
+      "temperature": 29.3,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "URGENT"
+    },
+    {
+      "bin_id": "BIN_034_M'H",
+      "fill_level": 87.2,
+      "waste_type": "menager",
+      "zone": "M'Hamid",
+      "location": [
+        31.599021,
+        -8.010028
+      ],
+      "capacity_kg": 1000,
+      "weight_kg": 871.8,
+      "battery_pct": 66.5,
+      "temperature": 33.8,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "URGENT"
+    },
+    {
+      "bin_id": "BIN_001_MED",
+      "fill_level": 87.1,
+      "waste_type": "menager",
+      "zone": "Medina",
+      "location": [
+        31.634441,
+        -7.983866
+      ],
+      "capacity_kg": 300,
+      "weight_kg": 261.2,
+      "battery_pct": 69.8,
+      "temperature": 34.0,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "URGENT"
+    },
+    {
+      "bin_id": "BIN_019_HIV",
+      "fill_level": 84.4,
+      "waste_type": "menager",
+      "zone": "Hivernage",
+      "location": [
+        31.620856,
+        -7.988965
+      ],
+      "capacity_kg": 750,
+      "weight_kg": 632.8,
+      "battery_pct": 70.9,
+      "temperature": 28.8,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "URGENT"
+    },
+    {
+      "bin_id": "BIN_010_MED",
+      "fill_level": 83.7,
+      "waste_type": "menager",
+      "zone": "Medina",
+      "location": [
+        31.634047,
+        -7.98419
+      ],
+      "capacity_kg": 750,
+      "weight_kg": 627.5,
+      "battery_pct": 78.0,
+      "temperature": 34.0,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "URGENT"
+    },
+    {
+      "bin_id": "BIN_031_M'H",
+      "fill_level": 81.5,
+      "waste_type": "menager",
+      "zone": "M'Hamid",
+      "location": [
+        31.601785,
+        -8.021884
+      ],
+      "capacity_kg": 750,
+      "weight_kg": 610.9,
+      "battery_pct": 70.2,
+      "temperature": 31.4,
+      "timestamp": "2026-05-02T11:08:16.473315",
+      "status": "URGENT"
+    }
+  ],
+  "predictions": {
+    "BIN_001_MED": {
+      "bin_id": "BIN_001_MED",
+      "current_fill": 87.1,
+      "rate_per_hour": 0.313,
+      "trend": "↑ hausse",
+      "predicted_6h": 89.0,
+      "predicted_12h": 90.9,
+      "predicted_24h": 94.6,
+      "hours_to_threshold": -54.5,
+      "hours_to_full": 41.2,
+      "recommendation": "🟠 Programmer collecte sous 4 h"
+    },
+    "BIN_002_MED": {
+      "bin_id": "BIN_002_MED",
+      "current_fill": 54.4,
+      "rate_per_hour": 0.268,
+      "trend": "↑ hausse",
+      "predicted_6h": 56.0,
+      "predicted_12h": 57.6,
+      "predicted_24h": 60.8,
+      "hours_to_threshold": 58.1,
+      "hours_to_full": 169.9,
+      "recommendation": "🟢 Collecte planifiée normale"
+    },
+    "BIN_003_MED": {
+      "bin_id": "BIN_003_MED",
+      "current_fill": 30.0,
+      "rate_per_hour": 0.181,
+      "trend": "→ stable",
+      "predicted_6h": 31.1,
+      "predicted_12h": 32.2,
+      "predicted_24h": 34.3,
+      "hours_to_threshold": 221.4,
+      "hours_to_full": 387.4,
+      "recommendation": "🟢 Collecte planifiée normale"
+    },
+    "BIN_004_MED": {
+      "bin_id": "BIN_004_MED",
+      "current_fill": 87.7,
+      "rate_per_hour": 0.388,
+      "trend": "↑ hausse",
+      "predicted_6h": 90.0,
+      "predicted_12h": 92.4,
+      "predicted_24h": 97.0,
+      "hours_to_threshold": -45.6,
+      "hours_to_full": 31.7,
+      "recommendation": "🟠 Programmer collecte sous 4 h"
+    },
+    "BIN_005_MED": {
+      "bin_id": "BIN_005_MED",
+      "current_fill": 47.4,
+      "rate_per_hour": 0.269,
+      "trend": "↑ hausse",
+      "predicted_6h": 49.0,
+      "predicted_12h": 50.6,
+      "predicted_24h": 53.9,
+      "hours_to_threshold": 84.1,
+      "hours_to_full": 195.6,
+      "recommendation": "🟢 Collecte planifiée normale"
+    },
+    "BIN_006_MED": {
+      "bin_id": "BIN_006_MED",
+      "current_fill": 24.1,
+      "rate_per_hour": 0.156,
+      "trend": "→ stable",
+      "predicted_6h": 25.0,
+      "predicted_12h": 26.0,
+      "predicted_24h": 27.8,
+      "hours_to_threshold": 294.4,
+      "hours_to_full": 486.8,
+      "recommendation": "🟢 Collecte planifiée normale"
+    },
+    "BIN_007_MED": {
+      "bin_id": "BIN_007_MED",
+      "current_fill": 81.0,
+      "rate_per_hour": 2.322,
+      "trend": "↑ hausse",
+      "predicted_6h": 94.9,
+      "predicted_12h": 100,
+      "predicted_24h": 100,
+      "hours_to_threshold": -4.7,
+      "hours_to_full": 8.2,
+      "recommendation": "🟠 Programmer collecte sous 4 h"
+    },
+    "BIN_008_MED": {
+      "bin_id": "BIN_008_MED",
+      "current_fill": 50.4,
+      "rate_per_hour": 0.217,
+      "trend": "↑ hausse",
+      "predicted_6h": 51.7,
+      "predicted_12h": 53.0,
+      "predicted_24h": 55.6,
+      "hours_to_threshold": 90.4,
+      "hours_to_full": 228.9,
+      "recommendation": "🟢 Collecte planifiée normale"
+    },
+    "BIN_009_MED": {
+      "bin_id": "BIN_009_MED",
+      "current_fill": 94.6,
+      "rate_per_hour": 0.145,
+      "trend": "→ stable",
+      "predicted_6h": 95.5,
+      "predicted_12h": 96.3,
+      "predicted_24h": 98.1,
+      "hours_to_threshold": -170.1,
+      "hours_to_full": 37.3,
+      "recommendation": "🔴 COLLECTE IMMÉDIATE"
+    },
+    "BIN_010_MED": {
+      "bin_id": "BIN_010_MED",
+      "current_fill": 83.7,
+      "rate_per_hour": 0.296,
+      "trend": "↑ hausse",
+      "predicted_6h": 85.5,
+      "predicted_12h": 87.3,
+      "predicted_24h": 90.8,
+      "hours_to_threshold": -46.2,
+      "hours_to_full": 55.0,
+      "recommendation": "🟠 Programmer collecte sous 4 h"
+    }
+  }
+}

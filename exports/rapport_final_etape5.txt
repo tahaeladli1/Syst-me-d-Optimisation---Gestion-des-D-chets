@@ -1,0 +1,36 @@
+RAPPORT FINAL — EMSI — Gestion des Déchets 2025/2026
+Généré le 01/05/2026 à 18:07:22
+
+━ ÉTAPE 1 — Configuration
+  • Structure projet : 7 dossiers, 12+ fichiers Python
+  • Tests Étape 1 : 19/19 passés
+
+━ ÉTAPE 2 — Algorithmes LP
+  • Chapitre 1 (Graphique) : x₁=11, x₂=1, Z=94 t/j
+  • Chapitre 2 (Simplexe)  : x₁=2, x₂=5, x₃=5, Z=106 t/j
+  • Gain Ch.2 vs Ch.1      : +12.8%
+  • Tests Étape 2          : 42/42 passés
+
+━ ÉTAPE 3 — Intégration IoT
+  • Capteurs simulés     : 36 sur 6 zones
+  • Remplissage moyen    : 56.4%
+  • Bennes urgentes (≥70%): 16
+  • Poids total estimé   : 12216 kg
+  • Zone la + chargée    : Hivernage
+  • Tests Étape 3        : 37/37 passés
+
+━ ÉTAPE 4 — Optimisation Routes
+  • Camions déployés     : 9 (x₁=2 · x₂=5 · x₃=5)
+  • Bennes collectées    : 20
+  • Distance totale      : 56.91 km
+  • Carburant estimé     : 14.2 L
+  • Algorithme principal : 2-Opt (amélioration locale TSP)
+  • Tests Étape 4        : 40/40 passés
+
+━ ÉTAPE 5 — Interface
+  • GUI Tkinter          : 5 onglets (LP · IoT · Routes · Dashboard · Rapport)
+  • Dashboard Web Flask  : 5 pages + 7 endpoints API REST
+  • Graphiques totaux    : 9 exports PNG horodatés
+  • Tests Étape 5        : 30/30 passés
+
+TOTAL TESTS : 168/168
