@@ -1,5 +1,9 @@
 # Système d'Optimisation — Gestion des Déchets
 
+[![CI](https://img.shields.io/badge/CI-GitHub%20Actions-blue)](https://github.com/tahaeladli1/Syst-me-d-Optimisation---Gestion-des-D-chets/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
+
 Projet académique EMSI pour la gestion intelligente des déchets, avec optimisation linéaire, méthodes simplex, simulation IoT et planification de collecte.
 
 ## Équipe
@@ -17,11 +21,17 @@ Ce projet vise à optimiser la collecte, la planification et la gestion des déc
 - analyse IoT et visualisation
 - interface de suivi utilisateur
 
+## Statut du projet
+
+- Phase académique : active
+- Objectif principal : optimiser la collecte et la gestion des déchets urbains
+- Démos disponibles : CLI, visualisation et planification des tournées
+
 ## Installation
 
 ```bash
 # Cloner le projet
-cd -Syst-me-d-Optimisation-Gestion-des-D-chets-main
+cd path/to/project
 
 # Créer un environnement virtuel
 python -m venv .venv
